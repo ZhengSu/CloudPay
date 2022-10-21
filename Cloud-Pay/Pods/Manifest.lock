@@ -1,0 +1,24 @@
+PODS:
+  - AliPay_SDK (15.6.5)
+  - WebViewJavascriptBridge (6.0.3)
+  - WechatOpenSDK (1.9.7)
+
+DEPENDENCIES:
+  - AliPay_SDK
+  - WebViewJavascriptBridge
+  - WechatOpenSDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AliPay_SDK
+    - WebViewJavascriptBridge
+    - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  AliPay_SDK: 4f94ac544191588946581809b3ad34d1c3e30a83
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WechatOpenSDK: 2f0ae448c7525cb5c27db5f7aa0f568de0988fa4
+
+PODFILE CHECKSUM: c306a15e551a390dd0efcfb347dcf23b01674fe3
+
+COCOAPODS: 1.11.3

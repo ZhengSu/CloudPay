@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+		9988AFDA2A675F720078D78CAB206911 /* AliPay_SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D6A2785AC9E8E2C3E8E87CABAC9A20AF /* Build configuration list for PBXAggregateTarget "AliPay_SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AliPay_SDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		024000553D04FE03DF4EAC4D2BFC2437 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F617E47709013E6B9E286A3636E22D15 /* WebViewJavascriptBridgeBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		029AFAB86F6C441589EAE036FE428362 /* WebViewJavascriptBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BED69FA4CA0F0DC5B869AA25D19BE9 /* WebViewJavascriptBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		030805AEE85A6F6E651EEF82B9D8385D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A12C355E463B10B23D0A4B9F8CE0C0 /* Foundation.framework */; };
+		0A2B675165194704EA85FBAF64B5474F /* WKWebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 8604EC2E150BFFB863D2601F88481807 /* WKWebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13A7D664E4C922F77AA254D6199D7E7E /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCEF852F2BA33FE4D30AEFB31B1A9EC /* WebViewJavascriptBridge_JS.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		18A95EDB109373644C83516E24F4F0FC /* Pods-Cloud-Pay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9CE563BF5051F46B638928C7834F /* Pods-Cloud-Pay-dummy.m */; };
+		376CD3D57842509C49A48176769A847F /* WebViewJavascriptBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F4C8D6EEBCDFB1C7EA641638DB6DCE /* WebViewJavascriptBridge-dummy.m */; };
+		485FC6DF871F82EA70AA4CD3CCCA8DDC /* WebViewJavascriptBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = A792D7E79C7AD3C389997DCFD63E22FB /* WebViewJavascriptBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8731E8226BF7DC5BCD1F26AB93131A4D /* WebViewJavascriptBridgeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 59BB583FF986FDAA376C4BAE6F293243 /* WebViewJavascriptBridgeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC443A24CE53CAFA7C29FCEEEAFFEDC /* WebViewJavascriptBridge_JS.h in Headers */ = {isa = PBXBuildFile; fileRef = F088C0EA33CB9BDC97F879D5FF4D4B9E /* WebViewJavascriptBridge_JS.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BC58857B91C9DD11C700372828C1118B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C897531E0A2210C76C1F033A8A925F8 /* WebKit.framework */; };
+		D2E5E52E45188A5F153282E99FF859FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A12C355E463B10B23D0A4B9F8CE0C0 /* Foundation.framework */; };
+		EA98818323F4A551D737D28747A4A81B /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = CE67C698130102CD6D2A856CE43CD7CF /* WKWebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ECF11264B50441E93C85ECC124AED4A3 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1DBC393D55309B9ADB62E3557B330F /* WebViewJavascriptBridge.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED12CA21E7E02883FFB41EE5C38EE85A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A046A0C3DA644670DE800C6194B2764 /* UIKit.framework */; };
+		FFB8A64CA010F102B32F71C155FFE0D7 /* Pods-Cloud-Pay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 192F948F5613C88B17B44F7B2248C809 /* Pods-Cloud-Pay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		808356BF48F120C98E1F33AD9DC13965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9988AFDA2A675F720078D78CAB206911;
+			remoteInfo = AliPay_SDK;
+		};
+		84F80728FC131BE13990D97FB484236F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		CBF1A4BCB65EC1753C59B525E793A4D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6EE36F386DBFD58A8A5B22D65791ABB;
+			remoteInfo = WebViewJavascriptBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051D26165384B075BC1BA05D15E8C2D0 /* AliPay_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliPay_SDK.release.xcconfig; sourceTree = "<group>"; };
+		069709F6ECF698E8474EE1278E3DF1ED /* Pods-Cloud-Pay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cloud-Pay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C3621F21F9F03F8A710C83DA373855C /* Pods-Cloud-Pay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cloud-Pay-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EDD9B6BDE3C051947969FB37C5C7288 /* WebViewJavascriptBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.release.xcconfig; sourceTree = "<group>"; };
+		11B7B7A798F9AB9B6F0F3E35B6960706 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
+		18BED69FA4CA0F0DC5B869AA25D19BE9 /* WebViewJavascriptBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-umbrella.h"; sourceTree = "<group>"; };
+		192F948F5613C88B17B44F7B2248C809 /* Pods-Cloud-Pay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cloud-Pay-umbrella.h"; sourceTree = "<group>"; };
+		199D51631AB1F212352D3D1CBBE8F2BE /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.9.7/WXApi.h; sourceTree = "<group>"; };
+		1E1DBC393D55309B9ADB62E3557B330F /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		2FD6C03658A2254E1C19CC8DFAC37385 /* AliPay_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliPay_SDK.debug.xcconfig; sourceTree = "<group>"; };
+		3C897531E0A2210C76C1F033A8A925F8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		43CC2EB3C73A4A7D27E63AD3A17E9F06 /* Pods-Cloud-Pay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cloud-Pay.release.xcconfig"; sourceTree = "<group>"; };
+		47D9F63440820613DE1263E9A799A4EC /* libWechatOpenSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWechatOpenSDK.a; path = OpenSDK1.9.7/libWechatOpenSDK.a; sourceTree = "<group>"; };
+		48933ADAA58D3618434DD2847D1DD5C8 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		4A046A0C3DA644670DE800C6194B2764 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		59BB583FF986FDAA376C4BAE6F293243 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridgeBase.h; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		6290C08746790CFDC96B2254DE88AB81 /* WebViewJavascriptBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WebViewJavascriptBridge.modulemap; sourceTree = "<group>"; };
+		797B01B7AC79DAB57ECAD65B43053292 /* WebViewJavascriptBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.debug.xcconfig; sourceTree = "<group>"; };
+		82A12C355E463B10B23D0A4B9F8CE0C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8604EC2E150BFFB863D2601F88481807 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKWebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		860B9F3E72B5C543B3853EB3E756DC63 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AlipaySDK.bundle; path = "AliPay-master/AlipaySDK.bundle"; sourceTree = "<group>"; };
+		876FE38A49DD9233E1D4F29899B40C1D /* Pods-Cloud-Pay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cloud-Pay-Info.plist"; sourceTree = "<group>"; };
+		8EB68B7943515E4F13CC6BE690FFD564 /* WebViewJavascriptBridge */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebViewJavascriptBridge; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9970657C084C86A14DD2B1782E943328 /* Pods-Cloud-Pay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cloud-Pay.debug.xcconfig"; sourceTree = "<group>"; };
+		9ADE9CE563BF5051F46B638928C7834F /* Pods-Cloud-Pay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cloud-Pay-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A792D7E79C7AD3C389997DCFD63E22FB /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		B34A623D85AE0DB16A2F3FB6DEC88695 /* Pods-Cloud-Pay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cloud-Pay-frameworks.sh"; sourceTree = "<group>"; };
+		B6B91C1202C70F40B4028C86A98CFD75 /* Pods-Cloud-Pay */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Cloud-Pay"; path = Pods_Cloud_Pay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FA91AA9457E5A4890054E5DA0449B7 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		C33CBE337AEB257090DE912A8E5785D0 /* Pods-Cloud-Pay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cloud-Pay.modulemap"; sourceTree = "<group>"; };
+		C656E42F7EBC453BDFB7530A7AB174D5 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.9.7/WXApiObject.h; sourceTree = "<group>"; };
+		C95417098138554DB7471C7609B78CFF /* Pods-Cloud-Pay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cloud-Pay-resources.sh"; sourceTree = "<group>"; };
+		CE67C698130102CD6D2A856CE43CD7CF /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKWebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		CEA8F4FF50DDBCF53AC3429FEBCEFCFF /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = "AliPay-master/AlipaySDK.framework"; sourceTree = "<group>"; };
+		E43FB4D4E4754C998FEA5423B849228C /* WebViewJavascriptBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WebViewJavascriptBridge-Info.plist"; sourceTree = "<group>"; };
+		EBCEF852F2BA33FE4D30AEFB31B1A9EC /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		EFA3A82DDFFDFD18BCB3D3E6E5E1A36B /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.9.7/WechatAuthSDK.h; sourceTree = "<group>"; };
+		F088C0EA33CB9BDC97F879D5FF4D4B9E /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WebViewJavascriptBridge_JS.h; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		F617E47709013E6B9E286A3636E22D15 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		F7F4C8D6EEBCDFB1C7EA641638DB6DCE /* WebViewJavascriptBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WebViewJavascriptBridge-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D5CA735F02FEA4D4765B2BF0495AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E5E52E45188A5F153282E99FF859FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF765C05465B03D139583513A963EAE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030805AEE85A6F6E651EEF82B9D8385D /* Foundation.framework in Frameworks */,
+				ED12CA21E7E02883FFB41EE5C38EE85A /* UIKit.framework in Frameworks */,
+				BC58857B91C9DD11C700372828C1118B /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFA2BEB1BEA3AEB543A51607322A05 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EF683608393BA4A8A77453E775C6D55 /* AliPay_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				4103D5AC3FCB13064126578EC7A961FE /* Frameworks */,
+				5120A2E6F361FC9A0A0A9D39BD8CF82E /* Resources */,
+				84A3DCF0AFC9EE7D8FFEC4FBEFB73523 /* Support Files */,
+			);
+			name = AliPay_SDK;
+			path = AliPay_SDK;
+			sourceTree = "<group>";
+		};
+		4103D5AC3FCB13064126578EC7A961FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8F4FF50DDBCF53AC3429FEBCEFCFF /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5120A2E6F361FC9A0A0A9D39BD8CF82E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				860B9F3E72B5C543B3853EB3E756DC63 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5C088A0D840B875311E1A14D6C9CD40B /* Pods-Cloud-Pay */ = {
+			isa = PBXGroup;
+			children = (
+				C33CBE337AEB257090DE912A8E5785D0 /* Pods-Cloud-Pay.modulemap */,
+				069709F6ECF698E8474EE1278E3DF1ED /* Pods-Cloud-Pay-acknowledgements.markdown */,
+				0C3621F21F9F03F8A710C83DA373855C /* Pods-Cloud-Pay-acknowledgements.plist */,
+				9ADE9CE563BF5051F46B638928C7834F /* Pods-Cloud-Pay-dummy.m */,
+				B34A623D85AE0DB16A2F3FB6DEC88695 /* Pods-Cloud-Pay-frameworks.sh */,
+				876FE38A49DD9233E1D4F29899B40C1D /* Pods-Cloud-Pay-Info.plist */,
+				C95417098138554DB7471C7609B78CFF /* Pods-Cloud-Pay-resources.sh */,
+				192F948F5613C88B17B44F7B2248C809 /* Pods-Cloud-Pay-umbrella.h */,
+				9970657C084C86A14DD2B1782E943328 /* Pods-Cloud-Pay.debug.xcconfig */,
+				43CC2EB3C73A4A7D27E63AD3A17E9F06 /* Pods-Cloud-Pay.release.xcconfig */,
+			);
+			name = "Pods-Cloud-Pay";
+			path = "Target Support Files/Pods-Cloud-Pay";
+			sourceTree = "<group>";
+		};
+		84A3DCF0AFC9EE7D8FFEC4FBEFB73523 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD6C03658A2254E1C19CC8DFAC37385 /* AliPay_SDK.debug.xcconfig */,
+				051D26165384B075BC1BA05D15E8C2D0 /* AliPay_SDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AliPay_SDK";
+			sourceTree = "<group>";
+		};
+		864F1690DEB336A72D21AE41C59EE396 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EFA3A82DDFFDFD18BCB3D3E6E5E1A36B /* WechatAuthSDK.h */,
+				199D51631AB1F212352D3D1CBBE8F2BE /* WXApi.h */,
+				C656E42F7EBC453BDFB7530A7AB174D5 /* WXApiObject.h */,
+				89B0778F52A1FAD1274F43353E3FC130 /* Frameworks */,
+				F85289A6FA0621F64271354F5A3AAC1E /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		89B0778F52A1FAD1274F43353E3FC130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47D9F63440820613DE1263E9A799A4EC /* libWechatOpenSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EAD68FDD26462304DA01CBE7D3876A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6B91C1202C70F40B4028C86A98CFD75 /* Pods-Cloud-Pay */,
+				8EB68B7943515E4F13CC6BE690FFD564 /* WebViewJavascriptBridge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A3C97815D881DD0DBF3BCB89B5370FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6290C08746790CFDC96B2254DE88AB81 /* WebViewJavascriptBridge.modulemap */,
+				F7F4C8D6EEBCDFB1C7EA641638DB6DCE /* WebViewJavascriptBridge-dummy.m */,
+				E43FB4D4E4754C998FEA5423B849228C /* WebViewJavascriptBridge-Info.plist */,
+				11B7B7A798F9AB9B6F0F3E35B6960706 /* WebViewJavascriptBridge-prefix.pch */,
+				18BED69FA4CA0F0DC5B869AA25D19BE9 /* WebViewJavascriptBridge-umbrella.h */,
+				797B01B7AC79DAB57ECAD65B43053292 /* WebViewJavascriptBridge.debug.xcconfig */,
+				0EDD9B6BDE3C051947969FB37C5C7288 /* WebViewJavascriptBridge.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WebViewJavascriptBridge";
+			sourceTree = "<group>";
+		};
+		BB8E3AB3486758A5592C7C649A8C6E48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EF683608393BA4A8A77453E775C6D55 /* AliPay_SDK */,
+				EA88C328D0C955EA911CC4E5AC3CC2E8 /* WebViewJavascriptBridge */,
+				864F1690DEB336A72D21AE41C59EE396 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBEFA2BEB1BEA3AEB543A51607322A05 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				82A12C355E463B10B23D0A4B9F8CE0C0 /* Foundation.framework */,
+				4A046A0C3DA644670DE800C6194B2764 /* UIKit.framework */,
+				3C897531E0A2210C76C1F033A8A925F8 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				BB8E3AB3486758A5592C7C649A8C6E48 /* Pods */,
+				8EAD68FDD26462304DA01CBE7D3876A4 /* Products */,
+				E30014A9A49DC260434A8839D66FF3B0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E30014A9A49DC260434A8839D66FF3B0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C088A0D840B875311E1A14D6C9CD40B /* Pods-Cloud-Pay */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EA88C328D0C955EA911CC4E5AC3CC2E8 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				A792D7E79C7AD3C389997DCFD63E22FB /* WebViewJavascriptBridge.h */,
+				1E1DBC393D55309B9ADB62E3557B330F /* WebViewJavascriptBridge.m */,
+				F088C0EA33CB9BDC97F879D5FF4D4B9E /* WebViewJavascriptBridge_JS.h */,
+				EBCEF852F2BA33FE4D30AEFB31B1A9EC /* WebViewJavascriptBridge_JS.m */,
+				59BB583FF986FDAA376C4BAE6F293243 /* WebViewJavascriptBridgeBase.h */,
+				F617E47709013E6B9E286A3636E22D15 /* WebViewJavascriptBridgeBase.m */,
+				8604EC2E150BFFB863D2601F88481807 /* WKWebViewJavascriptBridge.h */,
+				CE67C698130102CD6D2A856CE43CD7CF /* WKWebViewJavascriptBridge.m */,
+				9A3C97815D881DD0DBF3BCB89B5370FD /* Support Files */,
+			);
+			name = WebViewJavascriptBridge;
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		F85289A6FA0621F64271354F5A3AAC1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48933ADAA58D3618434DD2847D1DD5C8 /* WechatOpenSDK.debug.xcconfig */,
+				B9FA91AA9457E5A4890054E5DA0449B7 /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		98CB48E0044AA0619C57D89E96A97DE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485FC6DF871F82EA70AA4CD3CCCA8DDC /* WebViewJavascriptBridge.h in Headers */,
+				029AFAB86F6C441589EAE036FE428362 /* WebViewJavascriptBridge-umbrella.h in Headers */,
+				9EC443A24CE53CAFA7C29FCEEEAFFEDC /* WebViewJavascriptBridge_JS.h in Headers */,
+				8731E8226BF7DC5BCD1F26AB93131A4D /* WebViewJavascriptBridgeBase.h in Headers */,
+				0A2B675165194704EA85FBAF64B5474F /* WKWebViewJavascriptBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA792DB4B2B0C7B13DE21A4E20B70C84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB8A64CA010F102B32F71C155FFE0D7 /* Pods-Cloud-Pay-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BF34D476CFE3FBE054C476104757D5B /* Pods-Cloud-Pay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1169F8F16A5541B9C49E1577AC7D14D /* Build configuration list for PBXNativeTarget "Pods-Cloud-Pay" */;
+			buildPhases = (
+				BA792DB4B2B0C7B13DE21A4E20B70C84 /* Headers */,
+				B19BDC6B546C7E2A3ACDE606D997DF96 /* Sources */,
+				66D5CA735F02FEA4D4765B2BF0495AF0 /* Frameworks */,
+				6D9548F581427B1B1BC98EA87B585FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C616AC2BEDE8139D420C6F0121F48F16 /* PBXTargetDependency */,
+				014FE8DF0623452BADC48E3DB27DCFE9 /* PBXTargetDependency */,
+				6EBD8770A581B7B2A1513CAAF15D5F67 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cloud-Pay";
+			productName = Pods_Cloud_Pay;
+			productReference = B6B91C1202C70F40B4028C86A98CFD75 /* Pods-Cloud-Pay */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D97B1D8107475163373FE5ED318AC79 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */;
+			buildPhases = (
+				98CB48E0044AA0619C57D89E96A97DE9 /* Headers */,
+				85D1CF31E06A88A167AE172A0C447762 /* Sources */,
+				CF765C05465B03D139583513A963EAE1 /* Frameworks */,
+				F1EBA4DE98816DE06E15E252BB9EAB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebViewJavascriptBridge;
+			productName = WebViewJavascriptBridge;
+			productReference = 8EB68B7943515E4F13CC6BE690FFD564 /* WebViewJavascriptBridge */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8EAD68FDD26462304DA01CBE7D3876A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9988AFDA2A675F720078D78CAB206911 /* AliPay_SDK */,
+				0BF34D476CFE3FBE054C476104757D5B /* Pods-Cloud-Pay */,
+				D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D9548F581427B1B1BC98EA87B585FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1EBA4DE98816DE06E15E252BB9EAB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85D1CF31E06A88A167AE172A0C447762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF11264B50441E93C85ECC124AED4A3 /* WebViewJavascriptBridge.m in Sources */,
+				376CD3D57842509C49A48176769A847F /* WebViewJavascriptBridge-dummy.m in Sources */,
+				13A7D664E4C922F77AA254D6199D7E7E /* WebViewJavascriptBridge_JS.m in Sources */,
+				024000553D04FE03DF4EAC4D2BFC2437 /* WebViewJavascriptBridgeBase.m in Sources */,
+				EA98818323F4A551D737D28747A4A81B /* WKWebViewJavascriptBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19BDC6B546C7E2A3ACDE606D997DF96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A95EDB109373644C83516E24F4F0FC /* Pods-Cloud-Pay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		014FE8DF0623452BADC48E3DB27DCFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebViewJavascriptBridge;
+			target = D6EE36F386DBFD58A8A5B22D65791ABB /* WebViewJavascriptBridge */;
+			targetProxy = CBF1A4BCB65EC1753C59B525E793A4D1 /* PBXContainerItemProxy */;
+		};
+		6EBD8770A581B7B2A1513CAAF15D5F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 84F80728FC131BE13990D97FB484236F /* PBXContainerItemProxy */;
+		};
+		C616AC2BEDE8139D420C6F0121F48F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AliPay_SDK;
+			target = 9988AFDA2A675F720078D78CAB206911 /* AliPay_SDK */;
+			targetProxy = 808356BF48F120C98E1F33AD9DC13965 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1175DCF60B95FDD676395EDAC3662330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051D26165384B075BC1BA05D15E8C2D0 /* AliPay_SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9FA91AA9457E5A4890054E5DA0449B7 /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B026C60D2556327EF2B44835EE09CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EDD9B6BDE3C051947969FB37C5C7288 /* WebViewJavascriptBridge.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		320DFB941AD00613D92E7BC30AB246DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797B01B7AC79DAB57ECAD65B43053292 /* WebViewJavascriptBridge.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
+				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
+				PRODUCT_NAME = WebViewJavascriptBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40B2C2D2F5D06ACC532F73EF40D87843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9970657C084C86A14DD2B1782E943328 /* Pods-Cloud-Pay.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AE0FDF5A8AE46CDDAED43224ECA48694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD6C03658A2254E1C19CC8DFAC37385 /* AliPay_SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9034C3C8B274D7A7C62065B44D4B763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48933ADAA58D3618434DD2847D1DD5C8 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F702BBC018E88D8E53221B749873E2A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CC2EB3C73A4A7D27E63AD3A17E9F06 /* Pods-Cloud-Pay.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF0DF2249DC5CF1F6B67BE5469CE54C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9034C3C8B274D7A7C62065B44D4B763 /* Debug */,
+				19EB48C8530FBA1DDEA8FFCDD602F307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D97B1D8107475163373FE5ED318AC79 /* Build configuration list for PBXNativeTarget "WebViewJavascriptBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320DFB941AD00613D92E7BC30AB246DF /* Debug */,
+				2B026C60D2556327EF2B44835EE09CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1169F8F16A5541B9C49E1577AC7D14D /* Build configuration list for PBXNativeTarget "Pods-Cloud-Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B2C2D2F5D06ACC532F73EF40D87843 /* Debug */,
+				F702BBC018E88D8E53221B749873E2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6A2785AC9E8E2C3E8E87CABAC9A20AF /* Build configuration list for PBXAggregateTarget "AliPay_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0FDF5A8AE46CDDAED43224ECA48694 /* Debug */,
+				1175DCF60B95FDD676395EDAC3662330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

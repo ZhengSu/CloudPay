@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1916030F28FE9CA300A80B9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1916030E28FE9CA300A80B9B /* AppDelegate.m */; };
+		1916031528FE9CA300A80B9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1916031428FE9CA300A80B9B /* ViewController.m */; };
+		1916031828FE9CA300A80B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1916031628FE9CA300A80B9B /* Main.storyboard */; };
+		1916031A28FE9CA300A80B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1916031928FE9CA300A80B9B /* Assets.xcassets */; };
+		1916031D28FE9CA300A80B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1916031B28FE9CA300A80B9B /* LaunchScreen.storyboard */; };
+		1916032028FE9CA300A80B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1916031F28FE9CA300A80B9B /* main.m */; };
+		1916032E28FEAA9500A80B9B /* WKWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1916032D28FEAA9500A80B9B /* WKWebVC.m */; };
+		1916033128FFD87D00A80B9B /* CloudPay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1916033028FFD87D00A80B9B /* CloudPay.m */; };
+		ED7AFA670A4C9CC20768B1FC /* Pods_Cloud_Pay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBBCEACB04EF69A1B97F2D8 /* Pods_Cloud_Pay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1916030A28FE9CA300A80B9B /* Cloud-Pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud-Pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1916030D28FE9CA300A80B9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1916030E28FE9CA300A80B9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1916031328FE9CA300A80B9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1916031428FE9CA300A80B9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1916031728FE9CA300A80B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1916031928FE9CA300A80B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1916031C28FE9CA300A80B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1916031E28FE9CA300A80B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1916031F28FE9CA300A80B9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1916032C28FEAA9500A80B9B /* WKWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebVC.h; sourceTree = "<group>"; };
+		1916032D28FEAA9500A80B9B /* WKWebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebVC.m; sourceTree = "<group>"; };
+		1916032F28FFD87D00A80B9B /* CloudPay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudPay.h; sourceTree = "<group>"; };
+		1916033028FFD87D00A80B9B /* CloudPay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudPay.m; sourceTree = "<group>"; };
+		191603332901286B00A80B9B /* Cloud-Pay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cloud-Pay.entitlements"; sourceTree = "<group>"; };
+		1A54C99D05FD1AE366B12DDD /* Pods-Cloud-Pay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud-Pay.debug.xcconfig"; path = "Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay.debug.xcconfig"; sourceTree = "<group>"; };
+		1FBBCEACB04EF69A1B97F2D8 /* Pods_Cloud_Pay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloud_Pay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CA6286B802F62625C62AF6 /* Pods-Cloud-Pay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud-Pay.release.xcconfig"; path = "Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1916030728FE9CA300A80B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7AFA670A4C9CC20768B1FC /* Pods_Cloud_Pay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1916030128FE9CA300A80B9B = {
+			isa = PBXGroup;
+			children = (
+				1916032628FE9D6700A80B9B /* Classes */,
+				1916030C28FE9CA300A80B9B /* Cloud-Pay */,
+				1916030B28FE9CA300A80B9B /* Products */,
+				815D38250F507F72A60DCC94 /* Pods */,
+				561C34E418D3D5D0E01BD6C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1916030B28FE9CA300A80B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1916030A28FE9CA300A80B9B /* Cloud-Pay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1916030C28FE9CA300A80B9B /* Cloud-Pay */ = {
+			isa = PBXGroup;
+			children = (
+				191603332901286B00A80B9B /* Cloud-Pay.entitlements */,
+				1916030D28FE9CA300A80B9B /* AppDelegate.h */,
+				1916030E28FE9CA300A80B9B /* AppDelegate.m */,
+				1916031328FE9CA300A80B9B /* ViewController.h */,
+				1916031428FE9CA300A80B9B /* ViewController.m */,
+				1916031628FE9CA300A80B9B /* Main.storyboard */,
+				1916031928FE9CA300A80B9B /* Assets.xcassets */,
+				1916031B28FE9CA300A80B9B /* LaunchScreen.storyboard */,
+				1916031E28FE9CA300A80B9B /* Info.plist */,
+				1916031F28FE9CA300A80B9B /* main.m */,
+				1916032C28FEAA9500A80B9B /* WKWebVC.h */,
+				1916032D28FEAA9500A80B9B /* WKWebVC.m */,
+			);
+			path = "Cloud-Pay";
+			sourceTree = "<group>";
+		};
+		1916032628FE9D6700A80B9B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1916032F28FFD87D00A80B9B /* CloudPay.h */,
+				1916033028FFD87D00A80B9B /* CloudPay.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		561C34E418D3D5D0E01BD6C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FBBCEACB04EF69A1B97F2D8 /* Pods_Cloud_Pay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		815D38250F507F72A60DCC94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A54C99D05FD1AE366B12DDD /* Pods-Cloud-Pay.debug.xcconfig */,
+				94CA6286B802F62625C62AF6 /* Pods-Cloud-Pay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1916030928FE9CA300A80B9B /* Cloud-Pay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1916032328FE9CA300A80B9B /* Build configuration list for PBXNativeTarget "Cloud-Pay" */;
+			buildPhases = (
+				86EA60C97BD2E6099B01AD76 /* [CP] Check Pods Manifest.lock */,
+				1916030628FE9CA300A80B9B /* Sources */,
+				1916030728FE9CA300A80B9B /* Frameworks */,
+				1916030828FE9CA300A80B9B /* Resources */,
+				3179B77F1CCBC0126641BADA /* [CP] Copy Pods Resources */,
+				7737C9ADE3741FAD48BA4718 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cloud-Pay";
+			productName = "Cloud-Pay";
+			productReference = 1916030A28FE9CA300A80B9B /* Cloud-Pay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1916030228FE9CA300A80B9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1916030928FE9CA300A80B9B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 1916030528FE9CA300A80B9B /* Build configuration list for PBXProject "Cloud-Pay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1916030128FE9CA300A80B9B;
+			productRefGroup = 1916030B28FE9CA300A80B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1916030928FE9CA300A80B9B /* Cloud-Pay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1916030828FE9CA300A80B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1916031D28FE9CA300A80B9B /* LaunchScreen.storyboard in Resources */,
+				1916031A28FE9CA300A80B9B /* Assets.xcassets in Resources */,
+				1916031828FE9CA300A80B9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3179B77F1CCBC0126641BADA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7737C9ADE3741FAD48BA4718 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cloud-Pay/Pods-Cloud-Pay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86EA60C97BD2E6099B01AD76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloud-Pay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1916030628FE9CA300A80B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1916033128FFD87D00A80B9B /* CloudPay.m in Sources */,
+				1916031528FE9CA300A80B9B /* ViewController.m in Sources */,
+				1916030F28FE9CA300A80B9B /* AppDelegate.m in Sources */,
+				1916032028FE9CA300A80B9B /* main.m in Sources */,
+				1916032E28FEAA9500A80B9B /* WKWebVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1916031628FE9CA300A80B9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1916031728FE9CA300A80B9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1916031B28FE9CA300A80B9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1916031C28FE9CA300A80B9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1916032128FE9CA300A80B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1916032228FE9CA300A80B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1916032428FE9CA300A80B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A54C99D05FD1AE366B12DDD /* Pods-Cloud-Pay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Cloud-Pay/Cloud-Pay.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R94E4962A7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cloud-Pay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.honghuotai.hhtuser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1916032528FE9CA300A80B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94CA6286B802F62625C62AF6 /* Pods-Cloud-Pay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Cloud-Pay/Cloud-Pay.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R94E4962A7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cloud-Pay/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.honghuotai.hhtuser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1916030528FE9CA300A80B9B /* Build configuration list for PBXProject "Cloud-Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1916032128FE9CA300A80B9B /* Debug */,
+				1916032228FE9CA300A80B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1916032328FE9CA300A80B9B /* Build configuration list for PBXNativeTarget "Cloud-Pay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1916032428FE9CA300A80B9B /* Debug */,
+				1916032528FE9CA300A80B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1916030228FE9CA300A80B9B /* Project object */;
+}
